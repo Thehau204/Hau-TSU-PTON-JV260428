@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: brown;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(51, 98, 253);
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}

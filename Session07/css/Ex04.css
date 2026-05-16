@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 40px;
+  background-color: blue;
+  color: white;
+  line-height: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  height: calc(100vh - 120px);
+  text-align: center;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: green;
+  color: white;
+  line-height: 40px;
+}
+
+.content {
+  flex: 1;
+  background-color: rgb(241, 94, 9);
+  color: white;
+  line-height: 40px;
+}
+
+.footer {
+  height: 50px;
+  background-color: purple;
+  margin-top: 10px;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.item {
+  width: calc(25% - 15px);
+  height: 50px;
+  background-color: rgb(47, 252, 47);
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+}
+.item.large {
+  width: calc(50% - 20px);
+}
