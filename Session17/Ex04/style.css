@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  padding-top: 40px;
+  transition: background 0.3s;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.yellow { background: yellow; }
+.green  { background: green; }
+.gray   { background: gray; }

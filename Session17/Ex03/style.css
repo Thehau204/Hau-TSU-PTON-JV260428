@@ -1,0 +1,26 @@
+/* Nền tối */
+#overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: none;
+}
+
+/* Hộp modal */
+#modal {
+  width: 300px;
+  padding: 20px;
+  background: white;
+  margin: 150px auto;
+  border-radius: 6px;
+  position: relative;
+}
+
+/* Nút đóng */
+#closeBtn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
