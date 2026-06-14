@@ -1,0 +1,48 @@
+body {
+  font-family: Arial;
+  background: #6a4bff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+ul {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style: none;
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background: #6a4bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
